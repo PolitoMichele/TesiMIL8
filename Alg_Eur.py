@@ -48,7 +48,7 @@ def calculate_objective_function(bins):
 
 
 def main():
-    filename = 'input.txt'  # Change this to the name of your input file
+    filename = 'input.txt'
     n, c, objects = read_input(filename)
 
     start_time = time.time()
